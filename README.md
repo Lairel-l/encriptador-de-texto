@@ -18,10 +18,10 @@
 <li>Desencriptar texto. Reconvierte el texto encriptado a su versión original.</li>
 <li>Copiar al portapapeles. Un botón adicional permite copiar el texto encriptado o desencriptado al portapapeles para su uso en otras aplicaciones.</li>
 <h2>Estructura del proyecto:</h2>
-<li>index.html</li>
-<li>styles.css</li>
-<li>script.js</li>
-<li>README.md</li>
+<li><strong>index.html</strong> Contiene la estructura HTML de la página web, incluyendo los campos de entrada y los botones.</li>
+<li><strong>styles.css</strong> Archivo CSS para estilizar la interfaz de usuario.</li>
+<li><strong>script.js</strong> Contiene la lógica de encriptación y desencriptación, así como la funcionalidad para copiar el texto al portapapeles.</li>
+<li><strong>README.md</strong> Detalles sobre la página de encriptación, así como sus características.</li>
 <h2>Uso:</h2>
 <ol>
   <li>Ingresa el texto que deseas encriptar en el campo de entrada.</li>
