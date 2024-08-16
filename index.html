@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css"> <!--Referenciando css-->
+    <link rel="stylesheet" href=""> <!--Fuente de la página-->
     <title>Encriptador de texto. Reto Alura</title>
 </head>
 <body>
     <header> <!--Encabezado-->
         <img class="logo" src="imagenes/logo-orca.png" width="120" alt="logo"> 
-        <h1>Transforma Tu Mensaje en Un Código Secreto!</h1>
-        <!--Texto de indicaciones del texto a ingresar-->
-        <img class="exclamacion" src="imagenes/signo-exclamacion.png" width="10" alt="exclamacion"/>
-        <p>Condiciones del texto a ingresar: 
-            <img class="exclamacion" src="imagenes/signo-exclamacion.png" width="10" alt="exclamacion"/>
-            <li>En letras minusculas.</li><li>Solo letras sin acento.</li>
-            <li>No ingresar caracteres especiales.</li></p>
+        <nav><h1>Transforma Tu Mensaje en Un Código Secreto!</h1></nav>
     </header>
-    <section> <!--Contenido-->
-        <!--Apartado del cuadro donde el usuario ingresa el texto-->
-        <textarea cols="60" rows="25" class="texto" placeholder="Escribe tu texto aquí..."></textarea>
-        <!--Área de mostrar texto despues de selección-->
-        <textarea cols="30" rows="25" id="texto-encriptado-desencriptado"></textarea><br>
-        <!--Botones de selección sin función-->
-        <button class="encriptar">Encriptar</button>
-        <button class="desencriptar">Desencriptar</button>
-        <!--Botón de copiar-->
-        <button class="copiar">Copiar</button>
-    </section>
+    <main>
+        <section class="seccion1">
+            <div class="condiciones">
+                <img class="exclamacion" src="imagenes/signo-exclamacion.png" width="10" alt="exclamacion"/>
+                <!--Texto de indicaciones del texto a ingresar-->
+                <p>Condiciones del texto a ingresar: 
+                <li>En letras minusculas.</li><li>Solo letras sin acento.</li>
+                <li>No ingresar caracteres especiales.</li></p>
+            </div>
+            <div class="caja-escribir"> <!--Apartado del cuadro donde el usuario ingresa el texto-->
+                <textarea cols="60" rows="25" placeholder="Escribe tu texto aquí..."></textarea>
+            </div>
+            <div class="encriptar-desencriptar-botones"> <!--Botones para encriptar y desencriptar-->
+                <button class="encriptar"><span>Encriptar</span></button>
+                <button class="desencriptar"><span>Desencriptar</span></button>
+            </div>
+        </section>
+        <section class="seccion2"><!--Área de mostrar texto despues de selección-->
+            <div class="imagen">
+                <img src="imagenes/encriptando.png" width="180"/>
+            </div>
+            <div class="texto">
+                <p class="texto-encriptado-desencriptado"></p>
+            </div>
+            <div class="copiar-boton"> <!--Botón de copiar-->
+                <button class="copiar"><span>Copiar texto</span></button>
+            </div>
+        </section>
+    </main>
     <footer> <!--Pie de página-->
         <p>Creación de Jessica Alvarez Centeno (lairel-l). Proyecto creado en 2024.</p>
         <a href="https://github.com/Lairel-l">GitHub</a> <a href="https://www.linkedin.com/in/jessica-alvarez-centeno/">LinkedIn</a> <a href="https://x.com/lairel_l">X</a>
