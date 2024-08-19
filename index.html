@@ -16,15 +16,15 @@
     </header>
     <main>
         <section class="seccion1">
-            <div class="condiciones">
-                <img class="exclamacion" src="imagenes/signo-exclamacion.png" width="10" alt="exclamacion"/>
+            <div id="grupo-condicion">
+                <img class="exclamacion" src="imagenes/signo-exclamacion.png" width="12" alt="exclamacion"/>
                 <!--Texto de indicaciones del texto a ingresar-->
-                <p>Condiciones del texto a ingresar: 
+                <p id="condiciones">Condiciones del texto a ingresar: 
                 <li>En letras minusculas.</li><li>Solo letras sin acento.</li>
                 <li>No ingresar caracteres especiales.</li></p>
             </div>
-            <div class="caja-escribir"> <!--Apartado del cuadro donde el usuario ingresa el texto-->
-                <textarea cols="60" rows="25" placeholder="Escribe tu texto aquí..."></textarea>
+            <div class="escribir"> <!--Apartado del cuadro donde el usuario ingresa el texto-->
+                <textarea class="caja-escribir" cols="60" rows="25" id="placeholder" placeholder="Escribe tu texto aquí..."></textarea>
             </div>
             <div class="encriptar-desencriptar-botones"> <!--Botones para encriptar y desencriptar-->
                 <button class="encriptar"><span>Encriptar</span></button>
