@@ -1,4 +1,53 @@
 *{
+    margin: 0px;
+    padding: 0px;
     font-family: "EB Garamond", serif;
     
+}
+
+body {
+    background-image: url(/imagenes/paisaje-rosapastel.jpg); /*Fondo*/
+}
+
+/*Encabezado*/
+header {
+    width: 100%;
+    height: 170px; /*Separación del top al main*/
+}
+
+.logo{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+
+}
+
+#titulo{
+    padding-top: 30px; 
+    display: inline-block;
+    text-align: center;
+    width: calc(100% - 228px);
+}
+
+/*Contenido y función*/
+main{
+    position: absolute;
+}
+
+/*Pie de Página*/
+footer{
+    position:fixed;
+    left:0px;
+    bottom:5px;
+    height:50px; /*alto*/
+    width:100%;
+    background: wheat;
+}
+
+.texto-footer{
+    text-align: center;
+}
+
+.redes{
+    text-align: center;
 }
