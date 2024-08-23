@@ -232,6 +232,33 @@ main{
     color: rgb(30, 29, 71); /*color de prueba*/
 }
 
+/*Animacion de Loading*/
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    color:#0000;
+    background: linear-gradient(90deg,#000 25%,#8A9B0F 0 50%,#C02942 0 75%,#00A0B0 0) 0 0/400% 100%;
+    -webkit-background-clip:text;
+            background-clip:text;
+    animation:l10 5s infinite cubic-bezier(0.3,1,0,1);
+}
+.loader:before {
+    content:"Loading..."
+}
+@keyframes l10 {
+    25% {background-position: calc(1*100%/3) 0}
+    50% {background-position: calc(2*100%/3) 0}
+    75% {background-position: calc(3*100%/3) 0}
+    100%{background-position: calc(4*100%/3) 0}
+}
+.hidden{
+    display: none;
+}
+
+
 /*----------texto obtenido despúes de la opción marcada-------------*/
 .texto{
     position: absolute;
@@ -309,7 +336,6 @@ main{
     transform: scale(135); /*i.e. cambia de tamaño*/
     background: tomato; /*color de prueba*/
 }
-
 
 /*----------------------Pie de Página----------------------*/
 footer{
