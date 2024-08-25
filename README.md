@@ -1,6 +1,6 @@
 <h1 align="center">Encriptador de texto.</h1>
 <p align="center"><img src="https://img.shields.io/badge/Estado-En_desarrollo-green"></p>
-<p> Este proyecto es una aplicación web para encriptar texto, permite a los usuarios encriptar y desencriptar texto, utilizando un algoritmo básico de cifrado. </p>
+<p> Este proyecto es una aplicación web para encriptar texto, permite a los usuarios encriptar y desencriptar texto, utilizando un algoritmo básico de cifrado. Basado en el reto de Alura Latam. </p>
 <p>Las "llaves" de encriptación son:
   <ol>
     <li> La letra "a" se convierte en "ai". </li>
